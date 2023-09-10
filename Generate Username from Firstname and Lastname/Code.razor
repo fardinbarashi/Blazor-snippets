@@ -3,8 +3,8 @@
     <div class="identity">
         <h2>Identity</h2>
         <p class="small-text">Enter identity information below</p>
-        <input type="text" class="form-control" @bind="IdentityFirstName" @bind:event="oninput" @onchange="OnNameChanged" id="IdentityFirstName" placeholder="Enter first name" style="max-width: 300px;" title="Description: User's first name, can be fetched with SPAR-Data button">
-        <input type="text" class="form-control" @bind="IdentityLastName" @bind:event="oninput" @onchange="OnNameChanged" id="IdentityLastName" placeholder="Enter last name" style="max-width: 300px;" title="Description: User's last name, can be fetched with SPAR-Data button">
+        <input type="text" class="form-control" @bind="IdentityFirstName" @bind:event="oninput" @onchange="OnNameChanged" id="IdentityFirstName">
+        <input type="text" class="form-control" @bind="IdentityLastName" @bind:event="oninput" @onchange="OnNameChanged" id="IdentityLastName">
      </div>
 
     <!-- Username Options -->
@@ -30,9 +30,8 @@
     // Bind FrontEnd Forms
     // Identity properties
     public string? IdentityFirstName { get; set; }
-    public string? IdentityMiddleName { get; set; }
     public string? IdentityLastName { get; set; }
-    public string? IdentitySSN { get; set; }
+    
    
 
     // Username Options
