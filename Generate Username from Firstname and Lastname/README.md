@@ -1,2 +1,3 @@
-# C-sharpsnippets
-C# snippets and code examples
+# Generate Username and Firstname and Lastname
+![Result GIF](result.gif)
+
